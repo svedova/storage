@@ -1,0 +1,5 @@
+coverage/
+test/
+src/
+jest.config.js
+index.js
