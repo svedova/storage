@@ -1,0 +1,23 @@
+{
+  "name": "@svedova/storage",
+  "version": "1.0.0",
+  "description": "Storage wrappers for localStorage and sessionStorage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/svedova/storage.git"
+  },
+  "keywords": [
+    "storage",
+    "javascript"
+  ],
+  "author": "Savas Vedova <savas@vsk.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svedova/storage/issues"
+  },
+  "homepage": "https://github.com/svedova/storage#readme"
+}
