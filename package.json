@@ -2,9 +2,10 @@
   "name": "@svedova/storage",
   "version": "1.0.0",
   "description": "Storage wrappers for localStorage and sessionStorage",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
-    "test": "test"
+    "build": "rollup index.js --o bundle.js --f iife --name \"storage\"",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/svedova/storage/issues"
   },
-  "homepage": "https://github.com/svedova/storage#readme"
+  "homepage": "https://github.com/svedova/storage#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.2.2",
+    "rollup": "^0.55.5"
+  }
 }
