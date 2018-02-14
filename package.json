@@ -5,7 +5,8 @@
   "main": "bundle.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "publish": "git pull && npm run build && npm version patch -m \"Upgrade package %s\" && git push && npm publish"
   },
   "repository": {
     "type": "git",
