@@ -4,7 +4,7 @@
   "description": "Storage wrappers for localStorage and sessionStorage",
   "main": "bundle.js",
   "scripts": {
-    "build": "rollup index.js --o bundle.js --f iife --name \"storage\"",
+    "build": "rollup -c",
     "test": "jest"
   },
   "repository": {
@@ -23,8 +23,10 @@
   "homepage": "https://github.com/svedova/storage#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
     "jest": "^22.2.2",
-    "rollup": "^0.55.5"
+    "rollup": "^0.55.5",
+    "rollup-plugin-babel": "^3.0.3"
   }
 }
