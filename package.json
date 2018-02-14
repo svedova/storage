@@ -1,6 +1,6 @@
 {
   "name": "@svedova/storage",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Storage wrappers for localStorage and sessionStorage",
   "main": "bundle.js",
   "scripts": {
