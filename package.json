@@ -1,12 +1,12 @@
 {
   "name": "@svedova/storage",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "description": "Storage wrappers for localStorage and sessionStorage",
   "main": "bundle.js",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "prepublish": "git pull && npm run build && npm version patch -m \"Upgrade package %s\" && git push"
+    "prepublishOnly": "git pull && npm run build && npm version patch -m \"Upgrade package %s\" && git push"
   },
   "repository": {
     "type": "git",
